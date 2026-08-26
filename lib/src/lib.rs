@@ -81,6 +81,7 @@ pub mod refs;
 pub mod repo;
 pub use jj_core::repo_path;
 pub mod revset;
+pub mod revset_eval;
 pub mod revset_parser;
 pub mod rewrite;
 #[cfg(feature = "testing")]
